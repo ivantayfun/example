@@ -1,0 +1,33 @@
+{
+    "name": "ivantayfun/example",
+    "description": "ivantayfun",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Rubakov",
+            "email": "ivan.rubakov85@gmail.com"
+        }
+    ],
+    "repositories":
+        {
+            "type": "vcs",
+            "url": "git@github.com:ivantayfun/example.git"
+        },
+    "require": {
+
+    },
+    "require-dev": {
+      "ivantayfun/example":"1"
+    },
+  "autoload": {
+    "psr-4": {
+      "Ivantayfun\\Example\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ivantayfun\\Example\\": "src/"
+    }
+  }
+}
