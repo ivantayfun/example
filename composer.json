@@ -1,7 +1,6 @@
 {
     "name": "ivantayfun/example",
     "description": "ivantayfun",
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -18,7 +17,7 @@
 
     },
     "require-dev": {
-      "ivantayfun/example":"1"
+     
     },
   "autoload": {
     "psr-4": {
